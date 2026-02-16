@@ -1,0 +1,28 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+
+[general]
+name=Buffer
+qgisMinimumVersion=3.0
+description=Plugin que aplica um buffer em uma camada vetorial
+version=0.1
+author=Osvaldo Manasses
+email=mulangoosvaldo@gmail.com
+license=GPL-3.0
+
+about=Este plugin permite gerar zonas de buffer em shapefiles vetoriais, definindo de forma simples e rápida a largura e unidade desejada. A ferramenta automatiza o processo de criação de buffers, facilitando análises espaciais e estudos de proximidade.
+
+# tracker and repository podem ser deixados comentados se não houver URL real
+# tracker=http://bugs
+# repository=http://repo
+
+hasProcessingProvider=no
+tags=analysis, vector, buffer
+homepage=http://homepage
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
